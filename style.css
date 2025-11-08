@@ -148,11 +148,11 @@ main {
 
 /* ========== RIGHT COLUMN ========== */
 .right-column section {
-    margin-bottom: 1rem;
+margin-bottom: 2rem;
 }
 
 .right-column .entry {
-    margin-bottom: 1rem;
+margin-bottom: 1.5rem;
 }
 
 .right-column .entry-header {
@@ -185,19 +185,13 @@ main {
     margin-bottom: 0.5rem;
 }
 
-.right-column .entry p {
-    line-height: 1.45;
-}
-
 .right-column .about-me p {
-    font-size: 0.95rem;
-    line-height: 1.45;
+font-size: 0.95rem;
 }
 
 .right-column ul {
     font-size: 0.95rem;
-    margin-top: 0.5rem;
-    line-height: 1.45;
+margin-top: 0.5rem;
 }
 
 /* Responsive (for small screens) */
