@@ -1,19 +1,15 @@
 /* ========== GLOBAL STYLES ========== */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f2f5;
+    background-color: #ffffff;
+        /* <-- TO THIS */
     color: #333;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
-
 .resume-container {
-    max-width: 900px;
-    margin: 2rem auto;
     background-color: #ffffff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    border-radius: 8px;
     overflow: hidden;
 }
 
@@ -34,7 +30,7 @@ h2 {
 hr {
     border: 0;
     border-top: 1px solid #eee;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 ul {
@@ -79,9 +75,9 @@ header h1 {
 }
 
 .profile-pic {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    width: 180px;
+        height: 180px;
+        border-radius: 4px;
     object-fit: cover;
     border: 4px solid #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -97,7 +93,7 @@ main {
 
 /* ========== LEFT COLUMN ========== */
 .left-column .entry {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .left-column h3 {
@@ -118,11 +114,17 @@ main {
     color: #555;
 }
 
-.left-column .skills ul,
+.left-column .skills ul {
+    font-size: 0.95rem;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 2.5rem;
+}
 .left-column .languages ul {
     font-size: 0.95rem;
     list-style-type: none;
     padding-left: 0;
+    margin-bottom: 2.5rem;
 }
 
 .contact-list {
@@ -133,9 +135,9 @@ main {
 .contact-list li {
     display: flex;
     align-items: center;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     color: #333;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
 }
 
 .contact-list svg {
@@ -148,7 +150,7 @@ main {
 
 /* ========== RIGHT COLUMN ========== */
 .right-column section {
-margin-bottom: 2rem;
+margin-bottom: 1.5rem;
 }
 
 .right-column .entry {
@@ -182,16 +184,16 @@ margin-bottom: 1.5rem;
     font-weight: 500;
     font-style: italic;
     color: #444;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.1rem;
 }
 
 .right-column .about-me p {
-font-size: 0.95rem;
+    font-size: 0.95rem;
 }
 
 .right-column ul {
     font-size: 0.95rem;
-margin-top: 0.5rem;
+    margin-top: 0.1rem;
 }
 
 /* Responsive (for small screens) */
